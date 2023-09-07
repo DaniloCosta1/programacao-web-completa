@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário Aqui</h1>
+
+    <form action="">
+        <label for="nome">Nome: </label>
+        <input id="nome" type="text" placeholder="Digite seu nome aqui" required>
+        
+        <br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" name="" id="email" required>
+        
+        <br><br>
+
+        <label for="senha">Senha: </label>
+        <input type="password" name="" id="senha" required>
+        
+        <br><br>
+
+        <h3>Animal de estimação</h3>
+
+        <input type="radio" name="animal" value="Cachorro" id="dog">
+        <label for="dog">Cachorro</label>
+
+        <br><br>
+        
+        <input type="radio" name="animal" value="Gato" id="cat">
+        <label for="cat">Gato</label>
+
+        <br><br>
+
+        <input type="radio" name="animal" value="Rato" id="mouse">
+        <label for="mouse">Rato</label>
+
+        <h2>Esporte</h2>
+
+        <input type="checkbox" name="intem1" value="Futebol">
+        <label for="intem1">Futebol</label><br><br>
+
+        <input type="checkbox" name="intem2" value="Voleibol">
+        <label for="intem2">Voleibol</label><br><br>
+
+        <input type="checkbox" name="item3" value="Tênis">
+        <label for="item3">Tênis</label><br><br>
+
+        <input type="checkbox" name="item4" value="Ping Pong">
+        <label for="item4">Ping Pong</label><br><br>
+
+        <input type="checkbox" name="item5" value="Corrida">
+        <label for="item5">Corrida</label><br><br>
+
+        <input type="checkbox" name="item6" value="Voo Livre">
+        <label for="item6">Voo Livre</label><br><br>
+
+        <h2>Cor Preferida</h2>
+
+        <select name="cores" id="">
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="azul">Azul</option>
+            <option value="amarelo">Amarelo</option>
+            <option value="verde">Verde</option>
+            <option value="branco">Branco</option>
+            <option value="preto">Preto</option>
+        </select>
+
+        <h2>Digite sua mensagem</h2>
+        
+       <textarea required name="mensagem" id="" cols="30" rows="10" placeholder="fala comigo!"></textarea><br>
+       <button>Salvar mensagem</button>
+
+
+
+        <!--_________________________________________________-->
+        <br><br>
+        <input type="submit" value="Enviar"><br><br>
+        
+    </form>
+
+
+    <br>
+    <hr>
+    
+    <a href="index.html">Voltar para a página principal</a>
+</body>
+</html>
