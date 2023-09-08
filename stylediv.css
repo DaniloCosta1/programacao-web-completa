@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(61, 61, 61);
+    padding: 20px;
+    text-align: center;
+    color: azure;
+}
+
+nav{
+    background-color: rgb(28, 28, 28);
+    overflow: hidden;
+}
+
+nav a{
+    color: white;
+    padding: 14px 16px;
+    float: left;
+    text-decoration: none;
+    
+}
+
+.coluna-left{
+    float: left;
+    width: 50%;
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+
+.coluna-right{
+    float: right;
+    width: 50%;
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+}
