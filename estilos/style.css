@@ -16,7 +16,7 @@ nav{
 
 
 body{
-    background-image: url(img/html.jpg);
+    background-image: url(../img/html.jpg);
     background-size: cover;
     background-position: top;
     color: white;
@@ -43,12 +43,5 @@ a{
     text-decoration: none;
 }
 
-#aula1{
-    background-image: url(img/codigo.jpg);
-}
-
-#aula2{
-    background-image: url(img/codigo2.jpg);
-}
 
 
