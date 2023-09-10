@@ -1,7 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 150px;
+    text-align: center;
+    padding: 50px;
+    background: gray;
+}
+
+nav{
+    height: 100px;
+    background-color: rgb(48, 48, 48);
+}
+
+
 body{
     background-image: url(img/html.jpg);
-    background-size: contain;
-    background-position: left;
+    background-size: cover;
+    background-position: top;
     color: white;
 }
 
@@ -10,13 +27,16 @@ a{
 }
 
 .caixas{
-    height: 200px;
+    height: 120px;
     width: 200px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 5px;
-    
+    border: 1px solid white;
+    display: inline-block;
+    margin: 10px;
 }
+
 
 .caixas a{
     background-color: black;
