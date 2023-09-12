@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&family=Satisfy&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    font-weight: bold;
+}
+
+header{
+    background-color: rgb(183, 234, 250);
+    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+}
+
+section div{
+    background-color: rgb(237, 237, 231);
+    padding: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+section{
+    background-color:rgb(227, 218, 250) ;
+    padding: 20px
+}
+
+footer{
+    background-color: rgb(155, 158, 148);
+    padding: 50px;
+}
