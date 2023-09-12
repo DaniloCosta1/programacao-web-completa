@@ -33,3 +33,12 @@ footer{
     background-color: rgb(155, 158, 148);
     padding: 50px;
 }
+
+footer a{
+    background-color: rgb(237, 237, 231);
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
