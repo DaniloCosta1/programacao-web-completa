@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
     margin: 0;
     padding: 0;
@@ -12,10 +14,30 @@ header{
 nav{
     height: 50px;
     background-color: rgb(48, 48, 48);
+    text-align: left;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+
+}
+
+body{
+    
+    background-color: rgb(43, 80, 82);
+}
+
+main{
+    
+    background-image: url(../img/texture.jpg);
+    margin: 20px;
+    
 }
 
 
-section div a{
+main div a{
     color: white;
 }
 
@@ -39,12 +61,16 @@ section div a{
 
 
 footer{
-    background-color: rgb(250, 224, 193);
-    padding: 50px;
-    color: white;
+    background-color: black;
+    height: 50px;
 }
 
-a footer{
+footer > p{
+    color: white;
+    text-align: center;
+}
+
+footer  a{
     color: white;
     text-decoration: none;
 }
