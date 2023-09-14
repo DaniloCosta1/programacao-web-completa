@@ -61,17 +61,22 @@ main div a{
 
 
 footer{
-    background-color: black;
-    height: 50px;
-}
-
-footer > p{
-    color: white;
     text-align: center;
-}
+    border-top: 1px solid #060505;
+    background-color: rgb(34, 38, 41);
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+  }
+
+
+
 
 footer  a{
     color: white;
     text-decoration: none;
+    
 }
 
