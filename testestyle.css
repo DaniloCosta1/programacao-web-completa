@@ -10,19 +10,23 @@ header{
 }
 
 body{
+    
     background-color: aquamarine;
 }
 
 main{
     background-color: aqua;
     margin: 15px;
+    
     padding: 10px;
+    
     border: 1px solid black;
 }
 
 
 
 .container{
+    display: inline-block;
     background-color: blanchedalmond;
     padding: 10px;
     margin: 10px;
@@ -31,14 +35,16 @@ main{
 
 .caixas{
     height: 100px;
-    width: 33%;
+    width: 100px;
     display: inline-block;
     border: 1px solid black;
     background-color: rgb(99, 65, 65);
+    margin: 10px;
 }
 
 footer{
-    
-    background-color: chocolate;
-    height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(123, 121, 118);
 }
