@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+main{
+    background-color: aqua;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
+.container{
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.caixas{
+    height: 100px;
+    width: 33%;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: rgb(99, 65, 65);
+}
+
+footer{
+    
+    background-color: chocolate;
+    height: 100px;
+}

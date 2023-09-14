@@ -30,7 +30,7 @@ body{
 }
 
 main{
-    
+    display: inline-block;
     background-image: url(../img/texture.jpg);
     margin: 20px;
     
@@ -61,13 +61,15 @@ main div a{
 
 
 footer{
+    position: fixed;
+    bottom:0;
+    left: 0;
     text-align: center;
     border-top: 1px solid #060505;
     background-color: rgb(34, 38, 41);
-    bottom: 0;
-    left: 0;
+    
     height: 50px;
-    position: fixed;
+    
     width: 100%;
   }
 
