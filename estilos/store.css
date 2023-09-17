@@ -11,8 +11,9 @@ body{
 }
 
 header{
-    background-color: #F2180B;
+    background-color: #332B47;
     padding: 30px;
+    color: white;
 }
 
 header h1{
@@ -52,7 +53,7 @@ main{
 }
 
 .maisvendidos{
-    background-color:#F2180B;
+    background-color:#8CAFCA;
     display: inline-block;
     border: 1px solid white;
     padding: 50px;
