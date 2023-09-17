@@ -10,7 +10,7 @@ header{
 }
 
 body{
-    
+    display: inline-block;
     background-color: aquamarine;
 }
 
@@ -43,8 +43,7 @@ main{
 }
 
 footer{
-    position: fixed;
-    bottom: 0;
+    
     width: 100%;
     background-color: rgb(123, 121, 118);
 }
