@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Dancing+Script:wght@500&family=M+PLUS+Rounded+1c:wght@400;700&family=Roboto+Mono:ital@0;1&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Satisfy', cursive;
+}
+
+body{
+    background-color: #332B47;
+}
+
+header{
+    background-color: #F2180B;
+    padding: 30px;
+}
+
+header h1{
+    font-size: 75px;
+}
+
+nav{
+    background-color: #1B3D1F;
+    padding: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+main{
+    background-color: #0a2a2f;
+}
+
+.promocao{
+    background-color: #4ECDDF;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 50px;
+    
+}
+
+.box_promocao{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+.maisvendidos{
+    background-color:#F2180B;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 50px;
+}
+
+.box_maisvendidos{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+footer{
+    padding: 50px;
+    background-color:#332B47;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
